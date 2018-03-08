@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD4D4D4B2050BE0000866C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D4D4A2050BE0000866C54 /* AppDelegate.swift */; };
+		AD4D4D4D2050BE0000866C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D4D4C2050BE0000866C54 /* ViewController.swift */; };
+		AD4D4D502050BE0000866C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4D4D4E2050BE0000866C54 /* Main.storyboard */; };
+		AD4D4D522050BE0000866C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4D4D512050BE0000866C54 /* Assets.xcassets */; };
+		AD4D4D552050BE0000866C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4D4D532050BE0000866C54 /* LaunchScreen.storyboard */; };
+		AD4D4D602050BE0000866C54 /* EggCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D4D5F2050BE0000866C54 /* EggCalculatorTests.swift */; };
+		AD4D4D6B2050BE0000866C54 /* EggCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D4D6A2050BE0000866C54 /* EggCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD4D4D5C2050BE0000866C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4D4D3F2050BDFF00866C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4D4D462050BDFF00866C54;
+			remoteInfo = EggCalculator;
+		};
+		AD4D4D672050BE0000866C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4D4D3F2050BDFF00866C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4D4D462050BDFF00866C54;
+			remoteInfo = EggCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD4D4D472050BE0000866C54 /* EggCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4D4D4A2050BE0000866C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD4D4D4C2050BE0000866C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD4D4D4F2050BE0000866C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD4D4D512050BE0000866C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4D4D542050BE0000866C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD4D4D562050BE0000866C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4D4D5B2050BE0000866C54 /* EggCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4D4D5F2050BE0000866C54 /* EggCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggCalculatorTests.swift; sourceTree = "<group>"; };
+		AD4D4D612050BE0000866C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD4D4D662050BE0000866C54 /* EggCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4D4D6A2050BE0000866C54 /* EggCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggCalculatorUITests.swift; sourceTree = "<group>"; };
+		AD4D4D6C2050BE0000866C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4D4D442050BDFF00866C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4D4D582050BE0000866C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4D4D632050BE0000866C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4D4D3E2050BDFF00866C54 = {
+			isa = PBXGroup;
+			children = (
+				AD4D4D492050BE0000866C54 /* EggCalculator */,
+				AD4D4D5E2050BE0000866C54 /* EggCalculatorTests */,
+				AD4D4D692050BE0000866C54 /* EggCalculatorUITests */,
+				AD4D4D482050BE0000866C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4D4D482050BE0000866C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4D4D472050BE0000866C54 /* EggCalculator.app */,
+				AD4D4D5B2050BE0000866C54 /* EggCalculatorTests.xctest */,
+				AD4D4D662050BE0000866C54 /* EggCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4D4D492050BE0000866C54 /* EggCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				AD4D4D4A2050BE0000866C54 /* AppDelegate.swift */,
+				AD4D4D4C2050BE0000866C54 /* ViewController.swift */,
+				AD4D4D4E2050BE0000866C54 /* Main.storyboard */,
+				AD4D4D512050BE0000866C54 /* Assets.xcassets */,
+				AD4D4D532050BE0000866C54 /* LaunchScreen.storyboard */,
+				AD4D4D562050BE0000866C54 /* Info.plist */,
+			);
+			path = EggCalculator;
+			sourceTree = "<group>";
+		};
+		AD4D4D5E2050BE0000866C54 /* EggCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4D4D5F2050BE0000866C54 /* EggCalculatorTests.swift */,
+				AD4D4D612050BE0000866C54 /* Info.plist */,
+			);
+			path = EggCalculatorTests;
+			sourceTree = "<group>";
+		};
+		AD4D4D692050BE0000866C54 /* EggCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4D4D6A2050BE0000866C54 /* EggCalculatorUITests.swift */,
+				AD4D4D6C2050BE0000866C54 /* Info.plist */,
+			);
+			path = EggCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD4D4D462050BDFF00866C54 /* EggCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4D4D6F2050BE0000866C54 /* Build configuration list for PBXNativeTarget "EggCalculator" */;
+			buildPhases = (
+				AD4D4D432050BDFF00866C54 /* Sources */,
+				AD4D4D442050BDFF00866C54 /* Frameworks */,
+				AD4D4D452050BDFF00866C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggCalculator;
+			productName = EggCalculator;
+			productReference = AD4D4D472050BE0000866C54 /* EggCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4D4D5A2050BE0000866C54 /* EggCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4D4D722050BE0000866C54 /* Build configuration list for PBXNativeTarget "EggCalculatorTests" */;
+			buildPhases = (
+				AD4D4D572050BE0000866C54 /* Sources */,
+				AD4D4D582050BE0000866C54 /* Frameworks */,
+				AD4D4D592050BE0000866C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4D4D5D2050BE0000866C54 /* PBXTargetDependency */,
+			);
+			name = EggCalculatorTests;
+			productName = EggCalculatorTests;
+			productReference = AD4D4D5B2050BE0000866C54 /* EggCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD4D4D652050BE0000866C54 /* EggCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4D4D752050BE0000866C54 /* Build configuration list for PBXNativeTarget "EggCalculatorUITests" */;
+			buildPhases = (
+				AD4D4D622050BE0000866C54 /* Sources */,
+				AD4D4D632050BE0000866C54 /* Frameworks */,
+				AD4D4D642050BE0000866C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4D4D682050BE0000866C54 /* PBXTargetDependency */,
+			);
+			name = EggCalculatorUITests;
+			productName = EggCalculatorUITests;
+			productReference = AD4D4D662050BE0000866C54 /* EggCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4D4D3F2050BDFF00866C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "sachin sharma";
+				TargetAttributes = {
+					AD4D4D462050BDFF00866C54 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD4D4D5A2050BE0000866C54 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD4D4D462050BDFF00866C54;
+					};
+					AD4D4D652050BE0000866C54 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD4D4D462050BDFF00866C54;
+					};
+				};
+			};
+			buildConfigurationList = AD4D4D422050BDFF00866C54 /* Build configuration list for PBXProject "EggCalculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4D4D3E2050BDFF00866C54;
+			productRefGroup = AD4D4D482050BE0000866C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4D4D462050BDFF00866C54 /* EggCalculator */,
+				AD4D4D5A2050BE0000866C54 /* EggCalculatorTests */,
+				AD4D4D652050BE0000866C54 /* EggCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4D4D452050BDFF00866C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4D4D552050BE0000866C54 /* LaunchScreen.storyboard in Resources */,
+				AD4D4D522050BE0000866C54 /* Assets.xcassets in Resources */,
+				AD4D4D502050BE0000866C54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4D4D592050BE0000866C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4D4D642050BE0000866C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4D4D432050BDFF00866C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4D4D4D2050BE0000866C54 /* ViewController.swift in Sources */,
+				AD4D4D4B2050BE0000866C54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4D4D572050BE0000866C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4D4D602050BE0000866C54 /* EggCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4D4D622050BE0000866C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4D4D6B2050BE0000866C54 /* EggCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4D4D5D2050BE0000866C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4D4D462050BDFF00866C54 /* EggCalculator */;
+			targetProxy = AD4D4D5C2050BE0000866C54 /* PBXContainerItemProxy */;
+		};
+		AD4D4D682050BE0000866C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4D4D462050BDFF00866C54 /* EggCalculator */;
+			targetProxy = AD4D4D672050BE0000866C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD4D4D4E2050BE0000866C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4D4D4F2050BE0000866C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD4D4D532050BE0000866C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4D4D542050BE0000866C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD4D4D6D2050BE0000866C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD4D4D6E2050BE0000866C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4D4D702050BE0000866C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EggCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skittle.MyWorld.EggCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4D4D712050BE0000866C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EggCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skittle.MyWorld.EggCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD4D4D732050BE0000866C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EggCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skittle.MyWorld.EggCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggCalculator.app/EggCalculator";
+			};
+			name = Debug;
+		};
+		AD4D4D742050BE0000866C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EggCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skittle.MyWorld.EggCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggCalculator.app/EggCalculator";
+			};
+			name = Release;
+		};
+		AD4D4D762050BE0000866C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EggCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skittle.MyWorld.EggCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggCalculator;
+			};
+			name = Debug;
+		};
+		AD4D4D772050BE0000866C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EggCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skittle.MyWorld.EggCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4D4D422050BDFF00866C54 /* Build configuration list for PBXProject "EggCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4D4D6D2050BE0000866C54 /* Debug */,
+				AD4D4D6E2050BE0000866C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4D4D6F2050BE0000866C54 /* Build configuration list for PBXNativeTarget "EggCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4D4D702050BE0000866C54 /* Debug */,
+				AD4D4D712050BE0000866C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4D4D722050BE0000866C54 /* Build configuration list for PBXNativeTarget "EggCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4D4D732050BE0000866C54 /* Debug */,
+				AD4D4D742050BE0000866C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4D4D752050BE0000866C54 /* Build configuration list for PBXNativeTarget "EggCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4D4D762050BE0000866C54 /* Debug */,
+				AD4D4D772050BE0000866C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4D4D3F2050BDFF00866C54 /* Project object */;
+}

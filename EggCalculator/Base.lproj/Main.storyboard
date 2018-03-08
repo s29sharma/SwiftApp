@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EggCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LaM-69-VBt">
+                                <rect key="frame" x="0.0" y="237" width="375" height="162"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtl-Jf-k1b">
+                                <rect key="frame" x="115" y="435" width="126" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.52413480780804966" blue="0.21090825071761377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="1" green="0.81830541452494898" blue="0.18185604396401678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BXb-F3-AX3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCQ-bU-qLX">
+                                <rect key="frame" x="264" y="437" width="80" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.52413480779999999" blue="0.21090825069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YCQ-bU-qLX" secondAttribute="bottom" constant="183" id="1V7-rz-oHb"/>
+                            <constraint firstItem="dtl-Jf-k1b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="45L-b4-87O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dtl-Jf-k1b" secondAttribute="trailing" constant="134" id="4td-yv-VDQ"/>
+                            <constraint firstItem="LaM-69-VBt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7vy-ah-R36"/>
+                            <constraint firstAttribute="trailing" secondItem="LaM-69-VBt" secondAttribute="trailing" id="HD3-QQ-ZYs"/>
+                            <constraint firstItem="dtl-Jf-k1b" firstAttribute="top" secondItem="LaM-69-VBt" secondAttribute="bottom" constant="36" id="O7Z-rG-iZo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dtl-Jf-k1b" secondAttribute="bottom" constant="183" id="OS3-z6-2Rt"/>
+                            <constraint firstItem="YCQ-bU-qLX" firstAttribute="firstBaseline" secondItem="dtl-Jf-k1b" secondAttribute="firstBaseline" constant="-15" id="Ra0-vk-WS0"/>
+                            <constraint firstItem="YCQ-bU-qLX" firstAttribute="leading" secondItem="dtl-Jf-k1b" secondAttribute="trailing" constant="23" id="Yfi-dr-WVb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YCQ-bU-qLX" secondAttribute="trailing" constant="31" id="dj6-mC-oE6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LaM-69-VBt" secondAttribute="bottom" constant="268" id="k2K-DO-DSt"/>
+                            <constraint firstItem="LaM-69-VBt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="217" id="qLh-CN-WMZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Button" destination="dtl-Jf-k1b" id="EUr-1O-4Zz"/>
+                        <outlet property="Timer" destination="YCQ-bU-qLX" id="GiC-03-hKD"/>
+                        <outlet property="pickerView" destination="LaM-69-VBt" id="bZo-of-nz7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
